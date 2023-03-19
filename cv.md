@@ -18,3 +18,11 @@ I am 35 years old. Working in the management of the IT department of a public in
 - JavaScripr - beginner
 - docker, docker-compose -beginner
 - GitHub - beginner
+## Code Example
+```
+function clearActiveClasses() {
+    slides.forEach((slides) => {
+        slides.classList.remove('active')
+    })
+}
+```
