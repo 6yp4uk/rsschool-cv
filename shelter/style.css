@@ -1,0 +1,304 @@
+@font-face { 
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular/ArialRegular.eot");
+    src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialRegular/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+.font{
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; /* подлючаем шрифт к определенным параграфам, можно применять к отдельным спискам li, блокам div, формам form и другим элементам */
+    font-weight: normal; /* устанавливаем жирность шрифта, либо вместо 600, ставим значение — bold */
+    font-size: 16px; /* дополнительно устанавливаем размер шрифта параграфам */
+    }
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+.html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}  
+.body{
+    margin: 0 auto;
+    max-width: 1280px;
+    height: auto;
+}
+.start__screen{
+    margin: auto;
+    border: 1px;
+    height: 908px;
+    max-width: 1280px;
+    background-image: url(/images/header_not_only_back.png );
+    border-top: 1px solid transparent;
+}
+.header{
+    margin: 30px auto;
+    height: 60px;
+    max-width: 1200px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logo{
+    width: 184px;
+}
+.logo1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.logo2{
+    padding-top: 15px;
+    font-family: 'Arial';
+    font-weight:500;
+    font-style: normal;
+    font-size:13px;
+    line-height:15px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+.header__nav__menu{
+    width: 443px;
+    display: flex;
+    align-items: center;
+}
+.nav__menu{
+    width: 100%;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.item__nav{
+    text-decoration: none;
+    font-weight:700;
+    font-family: 'Arial';
+    font-style:normal;
+    color: #CDCDCD;
+}
+.not__only{
+    height: 728px;
+    max-width: 1200px;
+    margin: 90px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.not__only__dog{
+    display: block;
+    width: 698px;
+    height:728px;
+    background: url(images/start-screen-puppy.png) no-repeat;
+}
+.not__only_text__box{
+
+}
+.not__only__text{
+    margin-top: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 460px;
+    height: 322px;    
+}
+.h2__not__only{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.p__not__only{
+    margin: 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+
+}
+.not__only__button{
+    margin: 0;
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.about{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 588px;
+    border-top: 1px solid transparent;
+}
+.about__contents{
+    max-width: 850px;
+    height: 408px;
+    margin: 80px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.about__pets{
+    width:300px;
+    height:408px;
+    background-image: url(/images/about-pets.png);
+}
+.about__content{
+    height: 380px;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__content__text{
+    margin: 23px auto 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #4C4C4C;
+}
+.h3__about{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.pets{
+    max-width: 1280px;
+    height: 877px;
+    border-top: 1px solid transparent;
+}
+.pets__content{
+    margin: 80px auto 0;
+    max-width: 1200px;
+    height: 697px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pets__contents__heading{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.pets__images{
+    width: 270px;
+    height: 270px;
+    left: 105px;
+    top: 0px;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+.pets__name{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.pets__slider{
+    width: 100%;
+    height: 435px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 37px;
+}
+.pets_card{
+    width: 270px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.second{
+    margin: 0 30px;
+}
+.pets__button{
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background: white;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+letter-spacing: 0.06em;
+color: #292929;
+}
+.pets__contenst__button{
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family:'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.pets__button__arrow{
+    text-align: top;
+    margin-top: 25px;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+}
