@@ -5,24 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
     <title>6yp4uk</title>
 </head >
 <script src="script.js"></script>
 <body class="body">
     <div class="start__screen">
         <header class="header">
-            <div class="logo">
-                <p class="logo1">Cozy House</p>
-                <p class="logo2">Shelter for pets in Boston</p>
-            </div>
+            <a href="" style="text-decoration: none;">
+                <div class="logo">
+                    <p class="logo1">Cozy House</p>
+                    <p class="logo2">Shelter for pets in Boston</p>
+                </div>
+            </a>
+
             <div class="header__nav__menu">
                 <ul class=nav__menu>
                     <li class="item__nav__menu">
-                        <a href="#about" class="item__nav">About the shelter</a>
+                        <a href="#about" class="item__nav item__nav_active">About the shelter</a>
                     </li>
                     <li class="item__nav__menu">
-                        <a href="#our pets" class="item__nav">Our pets</a>
+                        <a href="pets.html" class="item__nav">Our pets</a>
                     </li>
                     <li class="item__nav__menu">
                         <a href="#help" class="item__nav">Help the shelter</a>
@@ -38,7 +40,7 @@
                 <div class="not__only__text">
                     <h2 class="h2__not__only"><p>Not only people</p><p>need a house</p></h2>
                     <p class="p__not__only">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                    <button class="not__only__button" >Make a friend</button>
+                    <a href="#our_pets"><button class="not__only__button" >Make a friend</button></a>
                 </div>
             </div>
             <div class="not__only__dog"></div>
@@ -54,7 +56,7 @@
                 </div>
             </div>
         </section>
-        <section class="pets">
+        <section class="pets" id = "our_pets">
             <div class="pets__content">
                 <h3 class = "pets__contents__heading">Our friends who <br> are looking for a house</h3>
                 <div class="pets__slider">
@@ -76,15 +78,118 @@
                     </div>
                     <button class="pets__button__arrow" style="background: url(images/Arrowr.png) no-repeat center;"></button>
                 </div>
-                <button class="pets__contenst__button" >Get to know the rest</button>
-                <section class="help">
-                    <div class="help__content">
-                        
-                    </div>
-                </section>
-            </div>
-        
+                <a href="pets.html" class="item__nav"><button class="pets__contenst__button">Get to know the rest</button></a>
+                
+            </div>      
         </section>
+        <section class="help" id = "help">
+            <div class="help__content">
+                <div class="heading">
+                    <h3 class="heating__context">How you can help <br> our shelter</h3>
+                </div>
+                <div class="help__list">
+                    <div class="help__list__items">
+                        <div class="help__icons food">
+                            <img src="images/help_icons/icon-pet-food.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Pet food</p>
+                    </div>
+                    <div class="help__list__items ">
+                        <div class="help__icons transport">
+                            <img src="images/help_icons/icon-transportation.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Transportation</p>
+                    </div>
+                    <div class="help__list__items">
+                        <div class="help__icons toys">
+                            <img src="images/help_icons/icon-toys.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Toys</p>
+                    </div>
+                    <div class="help__list__items">
+                        <div class="help__icons cups">
+                            <img src="images/help_icons/icon-bowls-and-cups.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Bowls and cups</p>
+                    </div>
+                    <div class="help__list__items">
+                        <div class="help__icons shampoos">
+                            <img src="images/help_icons/icon-shampoos.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Shampoos</p>
+                    </div>
+                    <div class="help__list__items">
+                        <div class="help__icons vitamins">
+                            <img src="images/help_icons/icon-vitamins.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Vtamins</p>
+                    </div>
+                    <div class="help__list__items">
+                        <div class="help__icons medicines">
+                            <img src="images/help_icons/icon-medicines.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Medicines</p>
+                    </div>
+                    <div class="help__list__items">
+                        <div class="help__icons collsrs">
+                            <img src="images/help_icons/icon-collars-leashes.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Collars / leashes</p>
+                    </div>
+                    <div class="help__list__items">
+                        <div class="help__icons sleep">
+                            <img src="images/help_icons/icon-sleeping-area.svg" alt="">
+                        </div>
+                        <p class="help__discriprions">Sleeping areas</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section class="donation">
+            <div class="donation__content">
+                <div class="donation__dogs">
+                    <img src="images/donation-dog.png" alt="">
+                </div>
+                <div class="content">
+                    <h3 class="donation__heading">You can also <br> make a donation</h3>
+                    <h5 class="donation__subscribe">Name of the bank / Type of bank account</h5>
+                    <div class="donation__card">
+                        <img src="images/help_icons/Credit card.svg" alt="">
+                    </div>
+                    <div class="donatin__leg__inform">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id = "contcts">
+            <div class="footer__content">
+                <div class="footer__contact">
+                    <h4 class="foter__contact__titele">For questions <br> and suggestions</h4>
+                    <a href="mailto:email@shelter.com" class="footer_list-item">
+                        <img class="footer__icons" src="images/icon-email.svg"></img>
+                        <h4 class="footer__text">email@shelter.com</h4>
+                    </a>    
+                    <a href="tel:+13 674 567 75 54" class="footer_list-item">
+                        <div><img class="footer__icons" src="images/icon-phone.svg" ></img></div>
+                        <h4 class="footer__text">+13 674 567 75 54</h4>
+
+                    </a> 
+                 </div>         
+                <div class="foote__location">
+                    <h4 class="footer__location_title">We are waiting <br> for your visit</h4>
+                    <a href="https://goo.gl/maps/uZa7jB4uFMgD4Ytc8" target="_blank" class="footer_list-item">
+                        <img clss = footer__icons src="images/icon-marker.svg" alt="">
+                        <h4 class="footer__text">1 Central Street, Boston<br>(entrance from the store)</h4>
+                    </a>   
+                    <a href="https://goo.gl/maps/2JY1mcGmb67d4Je2A" target="_blank" class="footer_list-item">
+                        <img class = footer__icons src="images/icon-marker.svg" alt="">
+                        <h4 class="footer__text">18 South Park, London </h4>
+                    </a>
+                </div>
+                <div class="footer__puppy">
+                    <img src="images/footer-puppy.svg" alt="">
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

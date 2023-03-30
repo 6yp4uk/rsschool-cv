@@ -47,6 +47,7 @@
 }
 .logo{
     width: 184px;
+
 }
 .logo1{
     font-family: 'Georgia';
@@ -82,13 +83,22 @@
     flex-direction: row;
     
 }
-.item__nav{
+.item__nav_active{
+    border-bottom: 3px solid white;
+}
+.item__nav{ 
     text-decoration: none;
     font-weight:700;
     font-family: 'Arial';
     font-style:normal;
     color: #CDCDCD;
 }
+.item__nav:hover{
+    color: whitesmoke;
+    transition: all 0.1s;
+    border-bottom: 3px solid white;
+}
+
 .not__only{
     height: 728px;
     max-width: 1200px;
@@ -137,7 +147,7 @@
     margin: 0;
     width: 207px;
     height: 52px;
-    background: #F1CDB3;
+    background: #edbc99;
     border-radius: 100px;
     font-family: 'Georgia';
     font-style: normal;
@@ -146,7 +156,15 @@
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
+    transition: all 0.1s;
+    cursor: pointer;
 }
+.not__only__button:hover{
+    background: hsl(18, 64%, 72%);
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
 .about{
     margin: 0 auto;
     max-width: 1200px;
@@ -262,8 +280,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 .second{
+    cursor: pointer;
     margin: 0 30px;
 }
 .pets__button{
@@ -277,8 +297,14 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
-letter-spacing: 0.06em;
-color: #292929;
+    letter-spacing: 0.06em;
+    color: #292929;
+    cursor: pointer;
+}
+.pets__button:hover{
+    cursor: pointer;
+    background: hsl(18, 64%, 72%);
+    color: #F5F5F5;
 }
 .pets__contenst__button{
     width: 261px;
@@ -293,6 +319,13 @@ color: #292929;
     /* identical to box height, or 22px */
     letter-spacing: 0.06em;
     color: #292929;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.pets__contenst__button:hover{
+    background: hsl(18, 64%, 72%);
+    color: #F5F5F5;
+    cursor: pointer;
 }
 .pets__button__arrow{
     text-align: top;
@@ -301,4 +334,243 @@ color: #292929;
     height: 52px;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
+}
+.help{
+    max-width: 1280px;
+    min-height: 611px;
+    background-color: aliceblue;
+    border-top: 1px solid transparent;
+}
+.help__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    min-height: 431px;
+    margin: 80px auto;
+}
+.heating__context{
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    /* color-dark-l */
+    color: #545454;
+}
+.heading{
+    max-width: 1026px;
+    min-height: 60px;
+    margin: 0 auto;
+}
+.help__list{
+    margin: 0 auto;
+    max-width: 1102px;
+    height: 281px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 55px;
+    column-gap: 119px;
+
+}
+.help__list__items {
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.help__icons{
+}
+.food{
+ 
+}
+
+.transport{
+
+}
+.toys{
+
+}
+.cups{
+
+}
+.shampoos{
+
+}
+.vitamins{
+
+}
+.medicines{
+
+}
+.collsrs{
+
+}
+.sleep{
+
+}
+.help__discriprions{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    letter-spacing: 0.06em;
+    /* color-dark-l */
+    color: #545454;
+}
+.donation{
+    max-width: 1280px;
+    min-height: 462px;
+    border-top: 1px solid transparent;
+}
+.donation__content{
+    margin: 80px auto;
+    max-width: 915px;
+    min-height: 282px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.donation__heading{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    /* color-dark-l */
+    color: #545454;
+}
+.content{
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.donation__subscribe{
+    /* h5 */
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    /* color-dark-l */
+    color: #545454;
+}
+.donatin__leg__inform{
+    /* donation-description */
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    /* color-dark-m */
+    color: #B2B2B2;
+}
+
+.footer{
+    max-width: 1280px;
+    min-height: 350px;
+    background: url(images/footer-gradient-background.png);
+    border-top: 1px solid transparent;
+}
+.footer__content{
+    margin: 40px auto 0;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer__contact{
+    min-height: 234px;
+    max-width: 300px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.foter__contact__titele{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    
+    /* or 45px */
+    letter-spacing: 0.06em;
+    
+    /* color-light-xl */
+    color: #FFFFFF;
+    
+    
+}
+.foote__location{
+    margin-left: -9px;
+    min-height: 234px;
+    max-width: 300px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer__location_title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    
+    /* or 45px */
+    letter-spacing: 0.06em;
+    
+    /* color-light-xl */
+    color: #FFFFFF;
+  
+}
+.footer__text{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.footer_list-item{
+    margin: 0;
+    gap:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: baseline;
+}
+.footer__icons{
+    width: auto;
+    height: 32px;
+    margin-top: 10px;
 }
