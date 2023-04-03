@@ -1,0 +1,15 @@
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    background: url(images/header_not_only_back.png)
+}
+.two{
+    margin: 5px;
+    width: 100px;;
+    height: 100px;
+    background-color: blue;
+
+}
