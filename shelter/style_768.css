@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px){
+    .header{
+        margin: 0;
+        padding: 29px 31px 39px;
+
+    }
+
+    .item__nav{  
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #CDCDCD;
+    }
+    .not__only{
+        margin: 0;
+    }
+    .not__only__dog{
+        background-size: 78% auto;
+    }
+
+    .not__only__text{
+        margin-top: 0;
+        padding: 20px;
+    }
+    .not__only__dog{
+        margin-left: 20%;
+        background-size: 569px;
+        margin-top: 11%;
+        width: 698px;
+        max-height: 594px;
+}
+    .not__only_text__box{
+        margin: 0 auto;
+    }
+    .not__only__button {
+        margin-left: 27%;
+    }
+
+    .about{
+        min-height: 1048px;
+    }
+
+    .about__pets{
+        margin-top: 80px;
+    }
+    .pets__slider{
+        gap:40px;
+    }
+    .pets__slider_arrow{
+        width: 92%;
+    }
+    .donation__dogs{
+        margin-top: 60px;
+    }
+    donations__dogs__img{
+        width: 100%;
+        height: auto;
+    }
+    .footer__puppy{
+        margin: 63px auto 0;
+    }
+    .footer{
+        padding: 12px 0 0;
+    }
+    .wrap__contact__map{
+        margin: 0 auto;
+        padding: 0px 27px 0;
+        max-width: 700px;
+    
+    
+    }
+}
